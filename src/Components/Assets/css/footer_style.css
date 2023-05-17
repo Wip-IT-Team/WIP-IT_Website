@@ -1,0 +1,175 @@
+/*sectionFooter*/
+#sectionFooter {
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    background-color: #5F0A82;
+/*    background-image: url(../image/b-9.png);
+    background-size: cover;
+    background-position: center;*/
+}
+
+.footerContent h4 {
+    color: white;
+    font-size: 2em;
+    font-family: Athiti;
+    padding-bottom: 10px;
+    text-align: left;
+
+}
+
+.footerContent h5 {
+    color: white;
+    font-size: 1.2em;
+    line-height: 30px;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+    text-align: left;
+
+}
+
+.footerContent p {
+    color: white;
+    font-family: Athiti;
+}
+
+.footerContent i {
+    padding-right: 10px;
+}
+
+ 
+.copyright h2 {
+    font-family: Athiti;
+    color: white;
+
+}
+
+.copyright h4 {
+    font-family: Athiti;
+        
+    color: white;
+}
+
+.footerImage {
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+ 
+}
+
+.move_up {
+    margin-top: -40px;
+}
+
+.move_up a {
+    color: #5F0A32;
+}
+
+.move_up i {
+    scroll-behavior: smooth;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-left: 12px;
+    float: right;
+
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.icons {
+    margin-top: 30px;
+
+}
+
+.icons ul {
+
+    margin-top: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    font-family: Athiti;
+}
+
+.icons ul li {
+    list-style: none;
+    position: relative;
+    width: 100px;
+    height: 60px;
+    line-height: 50px;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+
+    transition: .5s;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.icons ul li a {
+    color: white;
+}
+
+.icons ul li a:hover {
+    color: white;
+}
+
+.icons ul li span {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-20px);
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    background-color: white;
+    color: #5F0A82;
+    font-size: 14px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.icons ul li:hover span {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0px);
+}
+
+.icons ul li span:before {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: rotate(45deg) translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    z-index: -1;
+}
+
+.buttonSend {
+    padding: 7px;
+    background-color: #5F0A82;
+    font-family: Athiti;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 3px;
+    transition: 0.5s;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.JoinCommunity {
+    padding-top: 40px;
+}
+
+/*sectionFooter*/

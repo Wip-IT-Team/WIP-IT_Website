@@ -1,112 +1,167 @@
-import React, { useState } from 'react';
+import React from 'react';
+
 import './App.css';
+import './Components/Assets/css/web_style.css';
+import './Components/Assets/css/nav_style.css';
+import './Components/Assets/css/footer_style.css';
+import Team from './Components/our_team';
 
-const projects = [
-  {
-    name: 'TTO_Automation',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut risus quis felis ultricies sagittis. Duis sit amet sapien sed urna placerat commodo.',
-  },
-  {
-    name: 'TTO_Changes',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut risus quis felis ultricies sagittis. Duis sit amet sapien sed urna placerat commodo.',
-  },
-  {
-    name: 'TTO_Innovations',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut risus quis felis ultricies sagittis. Duis sit amet sapien sed urna placerat commodo.',
-  },
-  {
-    name: 'TTO_Maintenance',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut risus quis felis ultricies sagittis. Duis sit amet sapien sed urna placerat commodo.',
-  },
-  {
-    name: 'TTO_Upgrades',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut risus quis felis ultricies sagittis. Duis sit amet sapien sed urna placerat commodo.',
-  },
-];
 
-const teamMembers = ['Kalyan.K', 'Sneha HS', 'Soham CH', 'Shrikanth', 'Avinash'];
-
-function App() {
-  const [search, setSearch] = useState('');
-  const [searchResults, setSearchResults] = useState([]);
-
-  const handleSearch = (event) => {
-    const query = event.target.value.toLowerCase();
-    setSearch(query);
-
-    const results = projects.filter((project) =>
-      project.name.toLowerCase().includes(query)
-    );
-
-    setSearchResults(results);
-  };
-
-  const scrollToSection = (section) => {
-    const el = document.getElementById(section);
-    el.scrollIntoView({ behavior: 'smooth' });
-  };
-
-  return (
-    <div className="App">
-      <header>
-        <h1>WIP-IT-Team</h1>
-      </header>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Team</a>
-      </nav>
-      <section>
-        <h2>Projects</h2>
-        <div className="search-bar">
-          <input
-            type="text"
-            value={search}
-            placeholder="Search projects..."
-            onChange={handleSearch}
-          />
-        </div>
-        {searchResults.length > 0 ? (
-          searchResults.map((project) => (
-            <article key={project.name}>
-              <img src={`${project.name}.jpg`} alt={project.name} />
-              <h1>{project.name}</h1>
-              <p>{project.description}</p>
-              <button onClick={() => scrollToSection('team-section')}>
-                Meet the team
-              </button>
-            </article>
-          ))
-        ) : (
-          projects.map((project) => (
-            <article key={project.name}>
-              <img src={`${project.name}.jpg`} alt={project.name} />
-              <h1>{project.name}</h1>
-              <p>{project.description}</p>
-              <button onClick={() => scrollToSection('team-section')}>
-                Meet the team
-              </button>
-            </article>
-          ))
-        )}
-      </section>
-      <section id="team-section">
-        <div className="team-members">
-          {teamMembers.map((member) => (
-            <div key={member}>{member}</div>
-          ))}
-        </div>
-      </section>
-      <footer>
-        <p>&copy; 2023 WIP-IT-Team</p>
-      </footer>
+function App ()
+{
+return (
+    <div>
+        <section id="Navigation_Links">
+             {/* Meta */}
+            <link rel="icon" href="Assets/image/logo04.png" height="10px" />
+            {/* Meta */}
+            <meta charSet="utf-8" />
+            <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8" />
+            <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1.0, user-scalable=no"
+            />
+            {/* Meta */}
+            <meta
+                name="keywords"
+                content="Cargo, Aaradhya Cargo Movers, Railways Service, Airways Service, Roadways Service, packets, Docket, Boxes"
+            />
+            <meta
+                name="description"
+                content="Aaradhya Cargo and Movers Bangalore is one of the most reputed logistics companies in India with several branches all over India. We have been offering the most updated and innovative solutions as per the needs and demands of the Indian and international moving industry.Our extensive network helps us to coordinate all activities throughout India effortlessly and we have a strong fleet of vehicles and a disciplined and committed team of people to meet any rigorous and complex demands of the customers."
+            />
+            <link
+                rel="stylesheet"
+                href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+            />
+            <link
+                rel="stylesheet"
+                type="text/css"
+                href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            />
+            {/* Bootstrap Core CSS */}
+            {/* <link rel="stylesheet" href="assets/css/bootstrap.min.css"> */}
+            {/* fonts */}
+            <link
+                href="https://fonts.googleapis.com/css?family=Carter One"
+                rel="stylesheet"
+            />
+            <link
+                href="https://fonts.googleapis.com/css?family=Athiti"
+                rel="stylesheet"
+            />
+            <link
+                href="https://fonts.googleapis.com/css?family=Ubuntu"
+                rel="stylesheet"
+            />
+            <link
+                href="https://fonts.googleapis.com/css?family=Brush Script MT"
+                rel="stylesheet"
+            />
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia" />
+            <link
+                rel="stylesheet"
+                href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple"
+            />
+        </section>
+       
+        <header>
+            <section id="navbar_hdr">
+                <nav className="navbar navbar-default navbar-fixed">
+                    <div className="container-fluid">
+                    <div className="navbar-header">
+                        <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span className="icon-bar" style={{borderRadius: '0px', backgroundColor: 'white'}} />
+                        <span className="icon-bar" style={{borderRadius: '0px', backgroundColor: 'white'}} />
+                        <span className="icon-bar" style={{borderRadius: '0px', backgroundColor: 'white'}} />                        
+                        </button>
+                        <a className="navbar_brand" href="index.html">
+                        <span> 
+                            <img src="Assets/image/logo04.png" alt="" width="45px" height="45px" />  <span>Techbees</span>
+                        </span></a>
+                    </div>
+                    <div className="collapse navbar-collapse" id="myNavbar">
+                        <ul className="nav navbar-nav navbar-right">
+                        <li><a href="about_us.html">Home</a></li>
+                        <li><a href="about_us.html">About Us</a></li>
+                        <li><a href="our_team.html">Our Team</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact_us.html">Contact Us</a></li>  
+                        </ul>
+                    </div>
+                    </div>
+                </nav>
+        </section>
+            
+        </header>
+        <Team />
+        <footer>
+            <section id="sectionFooter">
+            <div className="container">
+                <div className="row">
+                <div className="col-lg-5 col-xs-12">
+                    <div className="footerContent">
+                    <h4>Techbees</h4>
+                    <h5>We believe everyone has the capacity to be creative. <br />Techbees is a place where people develop their own potential.</h5>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-xs-6">
+                    <div className="footerContent">
+                    <h4>Useful Links</h4>
+                    <div className="row">
+                        <div className="col-lg-6">
+                        <a href="about_us.html"><p><i className="fa fa-minus" /> About Us</p></a>
+                        <a href="our_team.html"><p><i className="fa fa-minus" /> Our Team</p></a>
+                        <a href="resource.html"><p><i className="fa fa-minus" /> Resource Center</p></a>
+                        </div>
+                        <div className="col-lg-6">
+                        <a href="projects.html"><p><i className="fa fa-minus" /> Projects</p></a>
+                        <a href="contact_us.html"><p><i className="fa fa-minus" /> Contact Us </p></a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div className="col-lg-3 col-xs-12">
+                    <div className="icons">
+                    <ul>
+                        <li><a href><i className="fa fa-facebook-square" /><span>Facebook</span></a></li>
+                        <li><a href><i className="fa fa-twitter-square" /><span>Twitter</span></a></li>
+                        <li><a href><i className="fa fa-linkedin-square" aria-hidden="true" /><span>Linkdein</span></a></li>
+                        <li><a href="https://github.com/singhavi94" target="blank"><i className="fa fa-github-square" /><span>Git</span></a></li>                      
+                    </ul>
+                    </div>
+                </div>   
+                </div>
+                <div className="copyright">
+                <div className="row">
+                    <div className="col-lg-6 col-xs-9">
+                    <div className="row">
+                        <div className="col-lg-1 col-xs-2">
+                        <img className="footerImage" src="Assets/image/logo04.png" />
+                        </div>
+                        <div className="col-lg-11 col-xs-10">
+                        <h2>Techbees</h2>
+                        </div>
+                    </div>
+                    </div>
+                    <div className="col-lg-6 col-xs-3">
+                    <div className="move_up">
+                        <div className="icons" style={{float: 'right'}}>
+                        <ul>
+                            <a href="#tothetop"> 
+                            <li><i style={{color: '#5F0A82', padding: '0px', paddingTop: '10px'}} className="fa fa-chevron-up" /><span>To the Top</span> </li>
+                            </a>                        
+                        </ul>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div> 
+            </section>
+        </footer>
+    
     </div>
-  );
+);
 }
 export default App;

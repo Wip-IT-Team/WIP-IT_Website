@@ -1,0 +1,60 @@
+/*hidden_sec*/
+#hidden_sec
+{
+    height: 68px;
+    background-color: transparent;
+}
+/*hidden_sec*/
+/*paggignation_hdr*/
+#paggignation_hdr {
+    background-image: url(../image/b-2.png);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    margin-top: -20px;
+}
+
+#paggignation_hdr h1 {
+    font-family: Athiti;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 2.5em;
+}
+
+#paggignation_hdr h4{
+    font-family: Athiti;
+    color: #5F0A82;
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#paggignation_hdr h4 span{
+    font-family: Athiti;
+    color: #5F0A82;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#paggignation_hdr a {
+    text-decoration: none;
+    color: black;
+}
+/*paggignation_hdr*/
+
+
+
+
+
+/*ON SMALL DEVICES*/
+@media screen and (max-width: 992px) {
+    .sectionContent h1 {
+        font-size: 2.5em;
+    }
+
+}
+
+/*ON SMALL DEVICES*/
