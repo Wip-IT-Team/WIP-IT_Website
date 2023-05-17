@@ -1,16 +1,21 @@
 import React from 'react';
-
+import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import './App.css';
 import './Components/Assets/css/web_style.css';
 import './Components/Assets/css/nav_style.css';
 import './Components/Assets/css/footer_style.css';
 import Team from './Components/our_team';
-
+import Home from './Components/Home';
+import Projects from './Components/Projects';
+import Contact from './Components/Contact';
+import About from './Components/About'; 
 
 function App ()
 {
 return (
     <div>
+        <div>
+        <Router>
         <section id="Navigation_Links">
              {/* Meta */}
             <link rel="icon" href="Assets/image/logo04.png" height="10px" />
@@ -82,11 +87,21 @@ return (
                     </div>
                     <div className="collapse navbar-collapse" id="myNavbar">
                         <ul className="nav navbar-nav navbar-right">
-                        <li><a href="about_us.html">Home</a></li>
-                        <li><a href="about_us.html">About Us</a></li>
-                        <li><a href="our_team.html">Our Team</a></li>
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="contact_us.html">Contact Us</a></li>  
+                            <li>
+                                <Link to="/">Home</Link>
+                            </li>
+                            <li>
+                                <Link to="/about">About Us</Link>
+                            </li>
+                            <li>
+                                <Link to="/team">Our Team</Link>
+                            </li>
+                            <li>
+                                <Link to="/projects">Projects</Link>
+                            </li>
+                            <li>
+                                <Link to="/contact">Contact Us</Link>
+                            </li> 
                         </ul>
                     </div>
                     </div>
@@ -94,7 +109,16 @@ return (
         </section>
             
         </header>
-        <Team />
+        <Routes>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/team" component={Team} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/contact" component={Contact} /> 
+        </Routes>
+       </Router>
+       </div>
+       <div>            
         <footer>
             <section id="sectionFooter">
             <div className="container">
@@ -137,7 +161,7 @@ return (
                     <div className="col-lg-6 col-xs-9">
                     <div className="row">
                         <div className="col-lg-1 col-xs-2">
-                        <img className="footerImage" src="Assets/image/logo04.png" />
+                        <img alt='footer' className="footerImage" src="Assets/image/logo04.png" />
                         </div>
                         <div className="col-lg-11 col-xs-10">
                         <h2>Techbees</h2>
@@ -160,7 +184,7 @@ return (
             </div> 
             </section>
         </footer>
-    
+     </div>
     </div>
 );
 }
