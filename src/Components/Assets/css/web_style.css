@@ -44,6 +44,114 @@
     color: black;
 }
 /*paggignation_hdr*/
+/*home_sec*/
+/*home_sec*/
+/*our_team_sec*/
+#our_team_sec
+{
+padding: 2%;
+}
+.sect {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sectOne {
+    background-image: url(../image/dots.png);
+    font-size: 1.5em;
+}
+
+.subSection1 {
+    height: 100%;
+    font-size: 1em;
+    color: black;
+    font-family: sans-serif;
+
+}
+
+.subSection1 .well {
+    border-radius: 0px;
+    background-color: grey;
+    opacity: 0.9;
+
+    margin-bottom: 17px;
+    margin-top: 17px;
+    border: none;
+
+}
+#top_heading
+{
+    text-align: center;
+}
+#top_heading h3
+{
+    font-weight: bold;
+}
+#top_heading h5
+{
+    line-height: 25px;
+}
+.profileCard .well 
+{
+    padding: 5px;
+    color: white;
+}
+.profileHead img{
+      height: 150px;
+    overflow: hidden;
+}
+.profileImage
+{
+    padding: 10px;
+    border-radius: 50%;
+    border:4px solid white;
+    background-color:#5F0A82;
+    margin-top: -80px;
+}
+.profileImage img{
+    border-radius: 50%;
+    overflow:hidden;
+}
+.profileDetails{
+    padding: 10px;
+    text-align: center;
+}
+.profileDetails h2
+{  
+    font-family: Alegreya Sans SC;
+    margin: 0px;
+}
+.profileDetails h4
+{
+    font-family:Sofia;
+    margin: 0px;
+    padding-top: 5px;
+}
+.profileDetails h5
+{
+    font-family:Athiti;
+    line-height: 15px;
+    font-size: 0.6em;
+
+}
+.profileDetails h6
+{
+    font-family:Athiti;
+    line-height: 17px;
+    font-size: 0.7em;
+
+}
+/*our_team_sec*/
+/*about_us_sec*/
+/*about_us_sec*/
+/*projects_sec*/
+/*projects_sec*/
+/*contact_us_sec*/
+/*contact_us_sec*/
+
 
 
 
