@@ -19,7 +19,7 @@ import profile_rj from "../Assets/image/profile_as.png";
  
       <section id="paggignation_hdr">
         <h1>Our Team</h1>
-        <h4><a href="index.html"> <i class="fa fa-home"></i> Home </a>/ <span>Our Team</span></h4>
+        <h4><a href="index.html"> <i className="fa fa-home"></i> Home </a>/ <span>Our Team</span></h4>
       </section>
       <section id="top_heading">
         <h3>Meet Our Team</h3>
@@ -27,179 +27,179 @@ import profile_rj from "../Assets/image/profile_as.png";
         has a passion for the logistic service join our team.</h5>
       </section>
       <section id="our_team_sec">
-        <div class="sect sectOne">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-12">
-                <div class="subSection1">
-                  <div class="row">
-                    <div class="col-lg-3">
-                      <div class="profileCard">
-                        <div class="well">
-                          <div class="profileHead">
+        <div className="sect sectOne">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="subSection1">
+                  <div className="row">
+                    <div className="col-lg-3">
+                      <div className="profileCard">
+                        <div className="well">
+                          <div className="profileHead">
                             <img src={codeBack} alt="" width="100%"/>
                           </div>
-                          <div class="row">
-                            <div class="col-lg-3"></div>
-                            <div class="col-lg-6">
-                              <div class="profileImage">
+                          <div className="row">
+                            <div className="col-lg-3"></div>
+                            <div className="col-lg-6">
+                              <div className="profileImage">
                                 <img src={profile_as} alt="" width="100%"/>
                               </div>
                             </div>
-                            <div class="col-lg-3"></div>
+                            <div className="col-lg-3"></div>
                           </div>
-                          <div class="profileDetails">
+                          <div className="profileDetails">
                             <h2>Avinash Singh</h2>
                             <h4>Web Developer</h4>
-                            <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
+                            <h5><i className="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
                             <h6>Actually, i just woke up one day and decided
                             I didn't want to feel like that <br/>anymore,
                             or ever again. So I changed....</h6>
                           </div>
-                          <div class="profileSocial">
+                          <div className="profileSocial">
                             <ul>
-                              <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                              <li><a href="https://github.com/singhavi94" target="blank"><i class="fa fa-github-square"></i></a></li>
+                              <li><a href=""><i className="fa fa-facebook-square"></i></a></li>
+                              <li><a href=""><i className="fa fa-twitter-square"></i></a></li>
+                              <li><a href=""><i className="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                              <li><a href="https://github.com/singhavi94" target="blank"><i className="fa fa-github-square"></i></a></li>
                             </ul>
                           </div>
-                          <div class="profileDownload">
-                            <div class="row">
-                              <div class="col-lg-3"></div>
-                              <div class="col-lg-6">
-                                <button class="buttonProfileDownload" type="submit">View Profile</button>
+                          <div className="profileDownload">
+                            <div className="row">
+                              <div className="col-lg-3"></div>
+                              <div className="col-lg-6">
+                                <button className="buttonProfileDownload" type="submit">View Profile</button>
                               </div>
-                              <div class="col-lg-3"></div>
+                              <div className="col-lg-3"></div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-3">
-                      <div class="profileCard">
-                        <div class="well">
-                          <div class="profileHead">
+                    <div className="col-lg-3">
+                      <div className="profileCard">
+                        <div className="well">
+                          <div className="profileHead">
                             <img src={codeBack} alt="" width="100%"/>
                           </div>
-                          <div class="row">
-                            <div class="col-lg-3"></div>
-                            <div class="col-lg-6">
-                              <div class="profileImage">
+                          <div className="row">
+                            <div className="col-lg-3"></div>
+                            <div className="col-lg-6">
+                              <div className="profileImage">
                                 <img src={profile_kk} alt="" width="100%"/>
                               </div>
                             </div>
-                            <div class="col-lg-3"></div>
+                            <div className="col-lg-3"></div>
                           </div>
-                          <div class="profileDetails">
+                          <div className="profileDetails">
                             <h2>Kalyan Kanuri</h2>
                             <h4>Web Developer</h4>
-                            <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
+                            <h5><i className="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
                             <h6>Actually, i just woke up one day and decided
                             I didn't want to feel like that <br/>anymore,
                             or ever again. So I changed....</h6>
                           </div>
-                          <div class="profileSocial">
+                          <div className="profileSocial">
                             <ul>
-                              <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                              <li><a href="https://github.com/singhavi94" target="blank"><i class="fa fa-github-square"></i></a></li>
+                              <li><a href=""><i className="fa fa-facebook-square"></i></a></li>
+                              <li><a href=""><i className="fa fa-twitter-square"></i></a></li>
+                              <li><a href=""><i className="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                              <li><a href="https://github.com/singhavi94" target="blank"><i className="fa fa-github-square"></i></a></li>
                             </ul>
                           </div>
-                          <div class="profileDownload">
-                            <div class="row">
-                              <div class="col-lg-3"></div>
-                              <div class="col-lg-6">
-                                <button class="buttonProfileDownload" type="submit">View Profile</button>
+                          <div className="profileDownload">
+                            <div className="row">
+                              <div className="col-lg-3"></div>
+                              <div className="col-lg-6">
+                                <button className="buttonProfileDownload" type="submit">View Profile</button>
                               </div>
-                              <div class="col-lg-3"></div>
+                              <div className="col-lg-3"></div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                     <div class="col-lg-3">
-                      <div class="profileCard">
-                        <div class="well">
-                          <div class="profileHead">
+                     <div className="col-lg-3">
+                      <div className="profileCard">
+                        <div className="well">
+                          <div className="profileHead">
                             <img src={codeBack} alt="" width="100%"/>
                           </div>
-                          <div class="row">
-                            <div class="col-lg-3"></div>
-                            <div class="col-lg-6">
-                              <div class="profileImage">
+                          <div className="row">
+                            <div className="col-lg-3"></div>
+                            <div className="col-lg-6">
+                              <div className="profileImage">
                                 <img src={profile_sc} alt="" width="100%"/>
                               </div>
                             </div>
-                            <div class="col-lg-3"></div>
+                            <div className="col-lg-3"></div>
                           </div>
-                          <div class="profileDetails">
+                          <div className="profileDetails">
                             <h2>Soham Chakraborty</h2>
                             <h4>Web Developer</h4>
-                            <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
+                            <h5><i className="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
                             <h6>Actually, i just woke up one day and decided
                             I didn't want to feel like that <br/>anymore,
                             or ever again. So I changed....</h6>
                           </div>
-                          <div class="profileSocial">
+                          <div className="profileSocial">
                             <ul>
-                              <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                              <li><a href="https://github.com/singhavi94" target="blank"><i class="fa fa-github-square"></i></a></li>
+                              <li><a href=""><i className="fa fa-facebook-square"></i></a></li>
+                              <li><a href=""><i className="fa fa-twitter-square"></i></a></li>
+                              <li><a href=""><i className="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                              <li><a href="https://github.com/singhavi94" target="blank"><i className="fa fa-github-square"></i></a></li>
                             </ul>
                           </div>
-                          <div class="profileDownload">
-                            <div class="row">
-                              <div class="col-lg-3"></div>
-                              <div class="col-lg-6">
-                                <button class="buttonProfileDownload" type="submit">View Profile</button>
+                          <div className="profileDownload">
+                            <div className="row">
+                              <div className="col-lg-3"></div>
+                              <div className="col-lg-6">
+                                <button className="buttonProfileDownload" type="submit">View Profile</button>
                               </div>
-                              <div class="col-lg-3"></div>
+                              <div className="col-lg-3"></div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                     <div class="col-lg-3">
-                      <div class="profileCard">
-                        <div class="well">
-                          <div class="profileHead">
+                     <div className="col-lg-3">
+                      <div className="profileCard">
+                        <div className="well">
+                          <div className="profileHead">
                             <img src={codeBack} alt="" width="100%"/>
                           </div>
-                          <div class="row">
-                            <div class="col-lg-3"></div>
-                            <div class="col-lg-6">
-                              <div class="profileImage">
+                          <div className="row">
+                            <div className="col-lg-3"></div>
+                            <div className="col-lg-6">
+                              <div className="profileImage">
                                 <img src={profile_sc} alt="" width="100%"/>
                               </div>
                             </div>
-                            <div class="col-lg-3"></div>
+                            <div className="col-lg-3"></div>
                           </div>
-                          <div class="profileDetails">
+                          <div className="profileDetails">
                             <h2>Shrikant Despande</h2>
                             <h4>Web Developer</h4>
-                            <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
+                            <h5><i className="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
                             <h6>Actually, i just woke up one day and decided
                             I didn't want to feel like that <br/>anymore,
                             or ever again. So I changed....</h6>
                           </div>
-                          <div class="profileSocial">
+                          <div className="profileSocial">
                             <ul>
-                              <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                              <li><a href="https://github.com/singhavi94" target="blank"><i class="fa fa-github-square"></i></a></li>
+                              <li><a href=""><i className="fa fa-facebook-square"></i></a></li>
+                              <li><a href=""><i className="fa fa-twitter-square"></i></a></li>
+                              <li><a href=""><i className="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                              <li><a href="https://github.com/singhavi94" target="blank"><i className="fa fa-github-square"></i></a></li>
                             </ul>
                           </div>
-                          <div class="profileDownload">
-                            <div class="row">
-                              <div class="col-lg-3"></div>
-                              <div class="col-lg-6">
-                                <button class="buttonProfileDownload" type="submit">View Profile</button>
+                          <div className="profileDownload">
+                            <div className="row">
+                              <div className="col-lg-3"></div>
+                              <div className="col-lg-6">
+                                <button className="buttonProfileDownload" type="submit">View Profile</button>
                               </div>
-                              <div class="col-lg-3"></div>
+                              <div className="col-lg-3"></div>
                             </div>
                           </div>
                         </div>
@@ -207,95 +207,95 @@ import profile_rj from "../Assets/image/profile_as.png";
                     </div>
                   </div>
                   <br/>
-                    <div class="row">
-                      <div class="col-lg-3"></div>
-                    <div class="col-lg-3">
-                      <div class="profileCard">
-                        <div class="well">
-                          <div class="profileHead">
+                    <div className="row">
+                      <div className="col-lg-3"></div>
+                    <div className="col-lg-3">
+                      <div className="profileCard">
+                        <div className="well">
+                          <div className="profileHead">
                             <img src={codeBack} alt="" width="100%"/>
                           </div>
-                          <div class="row">
-                            <div class="col-lg-3"></div>
-                            <div class="col-lg-6">
-                              <div class="profileImage">
+                          <div className="row">
+                            <div className="col-lg-3"></div>
+                            <div className="col-lg-6">
+                              <div className="profileImage">
                                 <img src={profile_sh} alt="" width="100%"/>
                               </div>
                             </div>
-                            <div class="col-lg-3"></div>
+                            <div className="col-lg-3"></div>
                           </div>
-                          <div class="profileDetails">
+                          <div className="profileDetails">
                             <h2>Sneha CH</h2>
                             <h4>Web Developer</h4>
-                            <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
+                            <h5><i className="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
                             <h6>Actually, i just woke up one day and decided
                             I didn't want to feel like that <br/>anymore,
                             or ever again. So I changed....</h6>
                           </div>
-                          <div class="profileSocial">
+                          <div className="profileSocial">
                             <ul>
-                              <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                              <li><a href="https://github.com/singhavi94" target="blank"><i class="fa fa-github-square"></i></a></li>
+                              <li><a href=""><i className="fa fa-facebook-square"></i></a></li>
+                              <li><a href=""><i className="fa fa-twitter-square"></i></a></li>
+                              <li><a href=""><i className="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                              <li><a href="https://github.com/singhavi94" target="blank"><i className="fa fa-github-square"></i></a></li>
                             </ul>
                           </div>
-                          <div class="profileDownload">
-                            <div class="row">
-                              <div class="col-lg-3"></div>
-                              <div class="col-lg-6">
-                                <button class="buttonProfileDownload" type="submit">View Profile</button>
+                          <div className="profileDownload">
+                            <div className="row">
+                              <div className="col-lg-3"></div>
+                              <div className="col-lg-6">
+                                <button className="buttonProfileDownload" type="submit">View Profile</button>
                               </div>
-                              <div class="col-lg-3"></div>
+                              <div className="col-lg-3"></div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-3">
-                      <div class="profileCard">
-                        <div class="well">
-                          <div class="profileHead">
+                    <div className="col-lg-3">
+                      <div className="profileCard">
+                        <div className="well">
+                          <div className="profileHead">
                             <img src={codeBack} alt="" width="100%"/>
                           </div>
-                          <div class="row">
-                            <div class="col-lg-3"></div>
-                            <div class="col-lg-6">
-                              <div class="profileImage">
+                          <div className="row">
+                            <div className="col-lg-3"></div>
+                            <div className="col-lg-6">
+                              <div className="profileImage">
                                 <img src={profile_rj} alt="" width="100%"/>
                               </div>
                             </div>
-                            <div class="col-lg-3"></div>
+                            <div className="col-lg-3"></div>
                           </div>
-                          <div class="profileDetails">
+                          <div className="profileDetails">
                             <h2>Rajesh</h2>
                             <h4>Web Developer</h4>
-                            <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
+                            <h5><i className="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
                             <h6>Actually, i just woke up one day and decided
                             I didn't want to feel like that <br/>anymore,
                             or ever again. So I changed....</h6>
                           </div>
-                          <div class="profileSocial">
+                          <div className="profileSocial">
                             <ul>
-                              <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                              <li><a href="https://github.com/singhavi94" target="blank"><i class="fa fa-github-square"></i></a></li>
+                              <li><a href=""><i className="fa fa-facebook-square"></i></a></li>
+                              <li><a href=""><i className="fa fa-twitter-square"></i></a></li>
+                              <li><a href=""><i className="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                              <li><a href="https://github.com/singhavi94" target="blank"><i className="fa fa-github-square"></i></a></li>
                             </ul>
                           </div>
-                          <div class="profileDownload">
-                            <div class="row">
-                              <div class="col-lg-3"></div>
-                              <div class="col-lg-6">
-                                <button class="buttonProfileDownload" type="submit">View Profile</button>
+                          <div className="profileDownload">
+                            <div className="row">
+                              <div className="col-lg-3"></div>
+                              <div className="col-lg-6">
+                                <button className="buttonProfileDownload" type="submit">View Profile</button>
                               </div>
-                              <div class="col-lg-3"></div>
+                              <div className="col-lg-3"></div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-3"></div>
+                    <div className="col-lg-3"></div>
                   </div>
                 </div>
               </div>
