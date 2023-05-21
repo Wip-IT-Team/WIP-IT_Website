@@ -23,7 +23,7 @@ import profile_rj from "../Assets/image/profile_as.png";
       </section>
       <section id="top_heading">
         <h3>Meet Our Team</h3>
-        <h5>We’re always looking for talented workers, creative directorsand <br/>anyone
+        <h5>We’re always looking for talented workers, creative directors and <br/>anyone
         has a passion for the logistic service join our team.</h5>
       </section>
       <section id="our_team_sec">
@@ -135,7 +135,7 @@ import profile_rj from "../Assets/image/profile_as.png";
                             <div class="col-lg-3"></div>
                           </div>
                           <div class="profileDetails">
-                            <h2>Soham Chakrobarty</h2>
+                            <h2>Soham Chakraborty</h2>
                             <h4>Web Developer</h4>
                             <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
                             <h6>Actually, i just woke up one day and decided
