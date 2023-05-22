@@ -51,7 +51,7 @@ import profile_rj from "../Assets/image/profile_as.png";
                           <div class="profileDetails">
                             <h2>Avinash Singh</h2>
                             <h4>UI/UX Designer</h4>
-                            <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
+                            <h5>avinashsingh4494@gmail.com</h5>
                             <h6>Actually, i just woke up one day and decided
                             I didn't want to feel like that <br/>anymore,
                             or ever again. So I changed....</h6>
@@ -168,7 +168,7 @@ import profile_rj from "../Assets/image/profile_as.png";
                             <div class="col-lg-3"></div>
                             <div class="col-lg-6">
                               <div class="profileImage">
-                                <img src={profile_sc} alt="" width="100%"/>
+                                <img src={profile_sd} alt="" width="100%"/>
                               </div>
                             </div>
                             <div class="col-lg-3"></div>
