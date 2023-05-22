@@ -8,6 +8,10 @@ const Footer = () =>
 return (
     
 <footer>
+<div class="joinNow">
+          <h4>We’re always looking for talented workers, creative directors  <br/>
+and anyone has a passion for the logistic service join our team.</h4>
+       </div>
 <div class="wave">
   <img src={waveCurve} alt="" width="100%;"/>
 </div>
@@ -31,16 +35,14 @@ return (
             <Link to="/OurTeam">
                 <p className='footerNav'><i className="fa fa-minus" /> Our Team</p>
             </Link>
-            <Link to="/ourteam">
-                <p className='footerNav'><i className="fa fa-minus" /> Our Team</p>
-            </Link>
+           
             </div>
             <div className="col-lg-6">
             <Link to="/ourteam">
-                <p className='footerNav'><i className="fa fa-minus" /> Our Team</p>
+                <p className='footerNav'><i className="fa fa-minus" /> Contact Us</p>
             </Link>
             <Link to="/ourteam">
-                <p className='footerNav'><i className="fa fa-minus" /> Our Team</p>
+                <p className='footerNav'><i className="fa fa-minus" /> Projects</p>
             </Link>
             </div>
         </div>

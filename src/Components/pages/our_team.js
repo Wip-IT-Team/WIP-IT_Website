@@ -50,7 +50,7 @@ import profile_rj from "../Assets/image/profile_as.png";
                           </div>
                           <div class="profileDetails">
                             <h2>Avinash Singh</h2>
-                            <h4>Web Developer</h4>
+                            <h4>UI/UX Designer</h4>
                             <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
                             <h6>Actually, i just woke up one day and decided
                             I didn't want to feel like that <br/>anymore,
@@ -93,11 +93,9 @@ import profile_rj from "../Assets/image/profile_as.png";
                           </div>
                           <div class="profileDetails">
                             <h2>Kalyan Kanuri</h2>
-                            <h4>Web Developer</h4>
-                            <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
-                            <h6>Actually, i just woke up one day and decided
-                            I didn't want to feel like that <br/>anymore,
-                            or ever again. So I changed....</h6>
+                            <h4>Full Stack Developer</h4>
+                            <h5>kalyankanuri497@gmail.com</h5>
+                            <h6> I'm an ambitious driven IT Professional <br/>who's always curious on learning and creating.</h6>
                           </div>
                           <div class="profileSocial">
                             <ul>
@@ -136,11 +134,9 @@ import profile_rj from "../Assets/image/profile_as.png";
                           </div>
                           <div class="profileDetails">
                             <h2>Soham Chakrobarty</h2>
-                            <h4>Web Developer</h4>
-                            <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
-                            <h6>Actually, i just woke up one day and decided
-                            I didn't want to feel like that <br/>anymore,
-                            or ever again. So I changed....</h6>
+                            <h4>JAVA Developer</h4>
+                            <h5>chakrabortysoham3005@gmail.com</h5>
+                            <h6>I'm a Java developer who have a perpetual sense in creating and sever curiosity of new stuff.</h6>
                           </div>
                           <div class="profileSocial">
                             <ul>
@@ -227,7 +223,7 @@ import profile_rj from "../Assets/image/profile_as.png";
                           <div class="profileDetails">
                             <h2>Sneha CH</h2>
                             <h4>Web Developer</h4>
-                            <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
+                            <h5>snehahshivu2306@gmail.com</h5>
                             <h6>Actually, i just woke up one day and decided
                             I didn't want to feel like that <br/>anymore,
                             or ever again. So I changed....</h6>
@@ -269,8 +265,8 @@ import profile_rj from "../Assets/image/profile_as.png";
                           </div>
                           <div class="profileDetails">
                             <h2>Rajesh</h2>
-                            <h4>Web Developer</h4>
-                            <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
+                            <h4>Full Stack Developer</h4>
+                            <h5>devaguptapurajesh013@gmail.com</h5>
                             <h6>Actually, i just woke up one day and decided
                             I didn't want to feel like that <br/>anymore,
                             or ever again. So I changed....</h6>

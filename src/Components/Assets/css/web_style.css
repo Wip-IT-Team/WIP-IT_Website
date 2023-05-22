@@ -1,9 +1,33 @@
-/*hidden_sec*/
-#hidden_sec
+/*Animation_section*/
+#paggignation_hdr h1,#paggignation_hdr h4 
 {
+     animation-name: paggig_hdr;
+    animation-duration: 2s;
+}
+@keyframes paggig_hdr
+{
+    from{margin-left: 100px;}
+    to{margin-left: 0px;}
+}
+
+.about_description h1
+{
+     animation-name: about_description;
+    animation-duration: 2s;
+}
+@keyframes about_description
+{
+    from{margin-right: 50px;}
+    to{margin-right: 0px;}
+}
+
+/*Animation_section*/
+/*hidden_sec*/
+#hidden_sec {
     height: 68px;
     background-color: transparent;
 }
+
 /*hidden_sec*/
 /*paggignation_hdr*/
 #paggignation_hdr {
@@ -23,7 +47,7 @@
     font-size: 2.5em;
 }
 
-#paggignation_hdr h4{
+#paggignation_hdr h4 {
     font-family: Athiti;
     color: #5F0A82;
     font-size: 1.2em;
@@ -31,7 +55,7 @@
     padding-bottom: 5%;
 }
 
-#paggignation_hdr h4 span{
+#paggignation_hdr h4 span {
     font-family: Athiti;
     color: #5F0A82;
     font-weight: bold;
@@ -43,26 +67,33 @@
     text-decoration: none;
     color: black;
 }
+
 /*paggignation_hdr*/
 /*home_sec*/
 /*home_sec*/
 /*our_team_sec*/
-#our_team_sec
-{
- 
+
+.joinNow {
+    padding: 2%;
+    text-align: center;
 }
+
+.joinNow h4 {
+    line-height: 30px;
+}
+
 .sect {
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 3%;
+    padding: 5% 3%;
     background-attachment: fixed;
 }
 
 .sectOne {
-    background-image: url(../image/drop.png);
-     
+    background-image: url(../image/symetry.png);
+
 }
 
 .subSection1 {
@@ -73,84 +104,89 @@
 
 }
 
- 
-#top_heading
-{
+
+#top_heading {
     text-align: center;
     padding: 30px;
 }
-#top_heading h3
-{
+
+#top_heading h3 {
     font-weight: bold;
 }
-#top_heading h5
-{
+
+#top_heading h5 {
     line-height: 25px;
+    font-size: 1.2em;
 }
-.profileCard .well 
-{
+
+.profileCard .well {
     padding: 0px;
     color: white;
     border-radius: 20px;
     background-color: #5F0A82;
-  
+
     transition: 0.5s;
     cursor: pointer;
     border: none;
 }
-.profileCard .well:hover
-{
+
+.profileCard .well:hover {
     transform: scale(1.1);
     transition: 0.4s;
 }
-.profileHead img{
-      height: 150px;
+
+.profileHead img {
+    height: 150px;
     overflow: hidden;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.profileImage
-{
+
+.profileImage {
     padding: 10px;
     border-radius: 50%;
-     height: 120px;
-     width: 120px;
-    border:4px solid white;
-    background-color:#5F0A82;
+    height: 120px;
+    width: 120px;
+    border: 4px solid white;
+    background-color: #5F0A82;
     margin-top: -60px;
 }
-.profileImage img{
+
+.profileImage img {
     border-radius: 50%;
-    overflow:hidden;
+    overflow: hidden;
     height: 95px;
-     width: 95px;
+    width: 95px;
 }
-.profileDetails{
+
+.profileDetails {
     padding: 10px;
     text-align: center;
 }
-.profileDetails h2
-{  
+
+.profileDetails h2 {
+    font-family: Aladin;
+    margin: 0px;
+    font-size: 1.8em;
+    letter-spacing: 2px;
+}
+
+.profileDetails h4 {
     font-family: Alegreya Sans SC;
     margin: 0px;
-    font-size: 2em;
-}
-.profileDetails h4
-{
-    font-family:Sofia;
-    margin: 0px;
     padding-top: 5px;
+    font-size: 1.2em;
 }
-.profileDetails h5
-{
-    font-family:Athiti;
+
+.profileDetails h5 {
+    font-family: Athiti;
     line-height: 15px;
     font-size: 1em;
 
 }
-.profileDetails h6
-{
-    font-family:Athiti;
+
+.profileDetails h6 {
+    font-family: Athiti;
     line-height: 17px;
     font-size: 1em;
     margin: 0px;
@@ -161,7 +197,7 @@
 
     margin-top: 0;
     padding: 0 20px;
- 
+
     color: white;
     display: flex;
 }
@@ -187,28 +223,96 @@
 }
 
 .buttonProfileDownload {
-    background-color:white ;
+    background-color: white;
     padding: 5px 20px;
     border: none;
     color: #5F0A82;
     font-size: 1em;
     font-weight: bold;
-     font-family:Athiti;
+    font-family: Athiti;
     letter-spacing: 1px;
     border-radius: 5px;
     transition: 0.5s;
     margin-bottom: 10px;
 }
+
 /*our_team_sec*/
 /*about_us_sec*/
+.servicePannel {
+    padding-top: 16px;
+    font-family: Athiti;
+}
+
+.servicePannel .well {
+    background-color: #5F0A82;
+    border: none;
+    border-radius: 10px;
+    padding: 26px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.servicePannel .well:hover
+{
+    background-color: white;
+    color: #5F0A82;
+    transition: 0.8s;
+ 
+}
+.servicePannel .well img
+{
+    margin-top: 20px;
+}
+.servicePannel .well h3 {
+    margin-top: 0px;
+}
+.servicePannel .well h5 {
+    line-height: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.servicePannel .well h6 {
+    line-height: 25px;
+    font-size: 1.2em;
+}
+.about_description{
+    padding-top: 30px;
+}
+.about_description h1
+{
+    text-align: center;
+    padding: 20px 5px;
+    font-weight: bold;
+    font-size: 2.2em;
+}
+.about_description h5
+{
+    text-align: center;
+    padding: 15px;
+    line-height: 27px;
+    font-size: 1.2em;
+}
+.sectionService
+{
+    background-color: #EBEBED;
+    padding: 3%;
+}
+.service_head
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.service_head h1{
+   font-weight: bold;}
+.service_head h4{
+    line-height: 25px;
+}
 /*about_us_sec*/
 /*projects_sec*/
 /*projects_sec*/
 /*contact_us_sec*/
 /*contact_us_sec*/
-
-
-
 
 
 
