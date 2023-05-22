@@ -42,29 +42,12 @@ import profile_rj from "../Assets/image/profile_as.png";*/
                             <div className="profileHead">
                               <img src={codeBack} alt="" width="100%" />
                             </div>
-                            <div class="col-lg-3"></div>
-                          </div>
-                          <div class="profileDetails">
-                            <h2>Avinash Singh</h2>
-                            <h4>Web Developer</h4>
-                            <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
-                            <h6>Actually, i just woke up one day and decided
-                            I didn't want to feel like that <br/>anymore,
-                            or ever again. So I changed....</h6>
-                          </div>
-                          <div class="profileSocial">
-                            <ul>
-                              <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                              <li><a href="https://github.com/singhavi94" target="blank"><i class="fa fa-github-square"></i></a></li>
-                            </ul>
-                          </div>
-                          <div class="profileDownload">
-                            <div class="row">
-                              <div class="col-lg-3"></div>
-                              <div class="col-lg-6">
-                                <button class="buttonProfileDownload" type="submit">View Profile</button>
+                            <div className="row">
+                              <div className="col-lg-3"></div>
+                              <div className="col-lg-6">
+                                <div className="profileImage">
+                                  <img src={member.image} alt="" width="100%" />
+                                </div>
                               </div>
                               <div className="col-lg-3"></div>
                             </div>
@@ -74,220 +57,59 @@ import profile_rj from "../Assets/image/profile_as.png";*/
                               <h5><i className="fa fa-envelope"></i> {member.email}</h5>
                               <h6>{member.description}</h6>
                             </div>
-                            <div class="col-lg-3"></div>
-                          </div>
-                          <div class="profileDetails">
-                            <h2>Kalyan Kanuri</h2>
-                            <h4>Web Developer</h4>
-                            <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
-                            <h6>Actually, i just woke up one day and decided
-                            I didn't want to feel like that <br/>anymore,
-                            or ever again. So I changed....</h6>
-                          </div>
-                          <div class="profileSocial">
-                            <ul>
-                              <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                              <li><a href="https://github.com/singhavi94" target="blank"><i class="fa fa-github-square"></i></a></li>
-                            </ul>
-                          </div>
-                          <div class="profileDownload">
-                            <div class="row">
-                              <div class="col-lg-3"></div>
-                              <div class="col-lg-6">
-                                <button class="buttonProfileDownload" type="submit">View Profile</button>
+                            <div className="profileSocial">
+                              <ul>
+                              <li>
+                                  <a href={member.social.facebook} aria-label="Facebook">
+                                    <i className="fa fa-facebook-square" aria-hidden="true"></i>
+                                    <span className="visually-hidden">Facebook</span>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href={member.social.twitter} aria-label="Twitter">
+                                    <i className="fa fa-twitter-square" aria-hidden="true"></i>
+                                    <span className="visually-hidden">Twitter</span>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href={member.social.linkedin} aria-label="LinkedIn">
+                                    <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                                    <span className="visually-hidden">LinkedIn</span>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href={member.social.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                    <i className="fa fa-github-square" aria-hidden="true"></i>
+                                    <span className="visually-hidden">GitHub</span>
+                                  </a>
+                                </li>                         
+                              </ul>
+                            </div>
+                            <div className="profileDownload">
+                              <div className="row">
+                                <div className="col-lg-3"></div>
+                                <div className="col-lg-6">
+                                  <div className="downloadBtn">
+                                    <a href="resume/Avinash_Singh.pdf" download>
+                                      <i className="fa fa-download"></i> Download CV
+                                    </a>
+                                  </div>
+                                </div>
+                                <div className="col-lg-3"></div>
                               </div>
-                              <div class="col-lg-3"></div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
-                     <div class="col-lg-3">
-                      <div class="profileCard">
-                        <div class="well">
-                          <div class="profileHead">
-                            <img src={codeBack} alt="" width="100%"/>
-                          </div>
-                          <div class="row">
-                            <div class="col-lg-3"></div>
-                            <div class="col-lg-6">
-                              <div class="profileImage">
-                                <img src={profile_sc} alt="" width="100%"/>
-                              </div>
-                            </div>
-                            <div class="col-lg-3"></div>
-                          </div>
-                          <div class="profileDetails">
-                            <h2>Soham Chakrobarty</h2>
-                            <h4>Web Developer</h4>
-                            <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
-                            <h6>Actually, i just woke up one day and decided
-                            I didn't want to feel like that <br/>anymore,
-                            or ever again. So I changed....</h6>
-                          </div>
-                          <div class="profileSocial">
-                            <ul>
-                              <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                              <li><a href="https://github.com/singhavi94" target="blank"><i class="fa fa-github-square"></i></a></li>
-                            </ul>
-                          </div>
-                          <div class="profileDownload">
-                            <div class="row">
-                              <div class="col-lg-3"></div>
-                              <div class="col-lg-6">
-                                <button class="buttonProfileDownload" type="submit">View Profile</button>
-                              </div>
-                              <div class="col-lg-3"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                     <div class="col-lg-3">
-                      <div class="profileCard">
-                        <div class="well">
-                          <div class="profileHead">
-                            <img src={codeBack} alt="" width="100%"/>
-                          </div>
-                          <div class="row">
-                            <div class="col-lg-3"></div>
-                            <div class="col-lg-6">
-                              <div class="profileImage">
-                                <img src={profile_sc} alt="" width="100%"/>
-                              </div>
-                            </div>
-                            <div class="col-lg-3"></div>
-                          </div>
-                          <div class="profileDetails">
-                            <h2>Shrikant Despande</h2>
-                            <h4>Web Developer</h4>
-                            <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
-                            <h6>Actually, i just woke up one day and decided
-                            I didn't want to feel like that <br/>anymore,
-                            or ever again. So I changed....</h6>
-                          </div>
-                          <div class="profileSocial">
-                            <ul>
-                              <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                              <li><a href="https://github.com/singhavi94" target="blank"><i class="fa fa-github-square"></i></a></li>
-                            </ul>
-                          </div>
-                          <div class="profileDownload">
-                            <div class="row">
-                              <div class="col-lg-3"></div>
-                              <div class="col-lg-6">
-                                <button class="buttonProfileDownload" type="submit">View Profile</button>
-                              </div>
-                              <div class="col-lg-3"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <br/>
-                    <div class="row">
-                      <div class="col-lg-3"></div>
-                    <div class="col-lg-3">
-                      <div class="profileCard">
-                        <div class="well">
-                          <div class="profileHead">
-                            <img src={codeBack} alt="" width="100%"/>
-                          </div>
-                          <div class="row">
-                            <div class="col-lg-3"></div>
-                            <div class="col-lg-6">
-                              <div class="profileImage">
-                                <img src={profile_sh} alt="" width="100%"/>
-                              </div>
-                            </div>
-                            <div class="col-lg-3"></div>
-                          </div>
-                          <div class="profileDetails">
-                            <h2>Sneha CH</h2>
-                            <h4>Web Developer</h4>
-                            <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
-                            <h6>Actually, i just woke up one day and decided
-                            I didn't want to feel like that <br/>anymore,
-                            or ever again. So I changed....</h6>
-                          </div>
-                          <div class="profileSocial">
-                            <ul>
-                              <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                              <li><a href="https://github.com/singhavi94" target="blank"><i class="fa fa-github-square"></i></a></li>
-                            </ul>
-                          </div>
-                          <div class="profileDownload">
-                            <div class="row">
-                              <div class="col-lg-3"></div>
-                              <div class="col-lg-6">
-                                <button class="buttonProfileDownload" type="submit">View Profile</button>
-                              </div>
-                              <div class="col-lg-3"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-3">
-                      <div class="profileCard">
-                        <div class="well">
-                          <div class="profileHead">
-                            <img src={codeBack} alt="" width="100%"/>
-                          </div>
-                          <div class="row">
-                            <div class="col-lg-3"></div>
-                            <div class="col-lg-6">
-                              <div class="profileImage">
-                                <img src={profile_rj} alt="" width="100%"/>
-                              </div>
-                            </div>
-                            <div class="col-lg-3"></div>
-                          </div>
-                          <div class="profileDetails">
-                            <h2>Rajesh</h2>
-                            <h4>Web Developer</h4>
-                            <h5><i class="fa fa-envelope"></i> avinashsingh4494@gmail.com</h5>
-                            <h6>Actually, i just woke up one day and decided
-                            I didn't want to feel like that <br/>anymore,
-                            or ever again. So I changed....</h6>
-                          </div>
-                          <div class="profileSocial">
-                            <ul>
-                              <li><a href=""><i class="fa fa-facebook-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-twitter-square"></i></a></li>
-                              <li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-                              <li><a href="https://github.com/singhavi94" target="blank"><i class="fa fa-github-square"></i></a></li>
-                            </ul>
-                          </div>
-                          <div class="profileDownload">
-                            <div class="row">
-                              <div class="col-lg-3"></div>
-                              <div class="col-lg-6">
-                                <button class="buttonProfileDownload" type="submit">View Profile</button>
-                              </div>
-                              <div class="col-lg-3"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-lg-3"></div>
+                    ))}
+                    {/* End of team member iteration */}
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section> 
+</section> 
 </div>
 )
 ;
