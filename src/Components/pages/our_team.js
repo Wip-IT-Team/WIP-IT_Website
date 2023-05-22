@@ -60,7 +60,7 @@ import profile_rj from "../Assets/image/profile_as.png";*/
                             <div className="profileSocial">
                               <ul>
                               <li>
-                                  <a href={member.social.facebook} aria-label="Facebook">
+                                  <a href={member.social.instagram} aria-label="Instagram">
                                     <i className="fa fa-instagram" aria-hidden="true"></i>
                                   </a>
                                 </li>
