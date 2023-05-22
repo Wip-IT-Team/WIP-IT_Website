@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from 'react-helmet';
 import {brandTitle} from '../exports';
 import codeBack from "../Assets/image/codeBack.jpg";
-import teamMembers from "../../teamMembers.json"
+import teamMembers from "../Assets/teamMembers.json"
 
 /*commenting imports for time being as we switched to use json file*/
 /*import profile_as from "../Assets/image/profile_as.png";
@@ -61,26 +61,22 @@ import profile_rj from "../Assets/image/profile_as.png";*/
                               <ul>
                               <li>
                                   <a href={member.social.facebook} aria-label="Facebook">
-                                    <i className="fa fa-facebook-square" aria-hidden="true"></i>
-                                    <span className="visually-hidden">Facebook</span>
+                                    <i className="fa fa-instagram" aria-hidden="true"></i>
                                   </a>
                                 </li>
                                 <li>
                                   <a href={member.social.twitter} aria-label="Twitter">
                                     <i className="fa fa-twitter-square" aria-hidden="true"></i>
-                                    <span className="visually-hidden">Twitter</span>
                                   </a>
                                 </li>
                                 <li>
                                   <a href={member.social.linkedin} aria-label="LinkedIn">
                                     <i className="fa fa-linkedin-square" aria-hidden="true"></i>
-                                    <span className="visually-hidden">LinkedIn</span>
                                   </a>
                                 </li>
                                 <li>
                                   <a href={member.social.github} target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                                     <i className="fa fa-github-square" aria-hidden="true"></i>
-                                    <span className="visually-hidden">GitHub</span>
                                   </a>
                                 </li>                         
                               </ul>
@@ -89,11 +85,9 @@ import profile_rj from "../Assets/image/profile_as.png";*/
                               <div className="row">
                                 <div className="col-lg-3"></div>
                                 <div className="col-lg-6">
-                                  <div className="downloadBtn">
-                                    <a href="resume/Avinash_Singh.pdf" download>
-                                      <i className="fa fa-download"></i> Download CV
-                                    </a>
-                                  </div>
+                                  <button className="buttonProfileDownload">
+                                      View Profile
+                                  </button>
                                 </div>
                                 <div className="col-lg-3"></div>
                               </div>
