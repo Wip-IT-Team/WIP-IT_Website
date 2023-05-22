@@ -18,8 +18,6 @@ import profile_rj from "../Assets/image/profile_as.png";*/
       <Helmet>
         <title>{brandTitle} | Our Team</title>
       </Helmet>
- 
- 
       <section id="paggignation_hdr">
         <h1>Our Team</h1>
         <h4><a href="index.html"> <i className="fa fa-home"></i> Home </a>/ <span>Our Team</span></h4>
@@ -111,7 +109,7 @@ import profile_rj from "../Assets/image/profile_as.png";*/
             </div>
           </div>
         </div>
-</section> 
+      </section> 
 </div>
 )
 ;
