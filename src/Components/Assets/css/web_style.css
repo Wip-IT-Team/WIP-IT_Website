@@ -73,15 +73,6 @@
 /*home_sec*/
 /*our_team_sec*/
 
-.joinNow {
-    padding: 2%;
-    text-align: center;
-}
-
-.joinNow h4 {
-    line-height: 30px;
-}
-
 .sect {
     height: 100%;
     background-repeat: no-repeat;
@@ -108,6 +99,7 @@
 #top_heading {
     text-align: center;
     padding: 30px;
+    background-color: transparent;
 }
 
 #top_heading h3 {

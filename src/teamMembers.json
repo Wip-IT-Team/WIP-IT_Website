@@ -1,0 +1,16 @@
+[
+    {
+      "name": "Avinash Singh",
+      "role": "Web Developer",
+      "email": "avinashsingh4494@gmail.com",
+      "description": "Actually, I just woke up one day and decided I didn't want to feel like that anymore, or ever again. So I changed...",
+      "image": "./Components/Assets/image/profile_kk.png",
+      "social": {
+        "facebook": "",
+        "twitter": "",
+        "linkedin": "",
+        "github": "https://github.com/singhavi94"
+      }
+    }
+  ]
+  
