@@ -103,9 +103,9 @@ import profile_rj from "../Assets/image/profile_as.png";*/
                           </div>
                         </div>
                       </div>
-                    </div>
-                     <div class="col-lg-3">
-                      <div class="profileCard">
+                    )}
+                     <div className="col-lg-3">
+                      <div className="profileCard">
                         <div class="well">
                           <div class="profileHead">
                             <img src={codeBack} alt="" width="100%"/>
