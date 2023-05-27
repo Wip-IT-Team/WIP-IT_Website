@@ -28,9 +28,9 @@ import tear_img from "../Assets/image/tear01.png";
           <div class="col-lg-7">
             <div class="about_description">
               <h1>We Can Design Anything You Want</h1>
-              <h5>At Turitor, we believe everyone should have the opportunity to 
-create progress through technology and develop the skills of tomorrow. 
-With assessments, learning paths and courses authored by industry experts.</h5>
+              <h5>At TechBeez, we believe everyone should have the opportunity to 
+                  create progress through technology and develop the skills of tomorrow. 
+                  With assessments, learning paths and courses authored by industry experts.</h5>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ With assessments, learning paths and courses authored by industry experts.</h5>
               <div class="col-lg-9">
                 <h3>Creative Design</h3>
                 <h5>Starts from 7,999.00</h5>
-                <h6>Web design refers to the design fo websites that are displayedon the internet. It usually refers to the user experience aspects of website development.</h6>
+                <h6>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development.</h6>
               </div>
             </div>
           </div>
@@ -76,7 +76,7 @@ With assessments, learning paths and courses authored by industry experts.</h5>
               <div class="col-lg-9">
                 <h3>Graphic Design</h3>
                 <h5>Starts from 6,999.00</h5>
-                <h6>Web design refers to the design fo websites that are displayedon the internet. It usually refers to the user experience aspects of website development.</h6>
+                <h6>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development.</h6>
               </div>
             </div>
           </div>
@@ -92,7 +92,7 @@ With assessments, learning paths and courses authored by industry experts.</h5>
               <div class="col-lg-9">
                 <h3>UI/UX Design</h3>
                 <h5>Starts from 8,999.00</h5>
-                <h6>Web design refers to the design fo websites that are displayedon the internet. It usually refers to the user experience aspects of website development.</h6>
+                <h6>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development.</h6>
               </div>
             </div>
           </div>
@@ -106,14 +106,13 @@ With assessments, learning paths and courses authored by industry experts.</h5>
               <div class="col-lg-9">
                 <h3>Web Design</h3>
                 <h5>Starts from 10,999.00</h5>
-                <h6>Web design refers to the design fo websites that are displayedon the internet. It usually refers to the user experience aspects of website development.</h6>
+                <h6>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development.</h6>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-   
+    </div>  
   </div>
 </div>
   </div>
