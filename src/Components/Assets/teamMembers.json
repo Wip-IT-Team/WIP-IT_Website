@@ -1,0 +1,29 @@
+[
+    {
+      "name": "Avinash Singh",
+      "role": "Web Developer",
+      "email": "avinashsingh4494@gmail.com",
+      "description": "Actually, I just woke up one day and decided I didn't want to feel like that anymore, or ever again. So I changed...",
+      "image": "https://i.ibb.co/wCpXMWN/profile-as.png",
+      "social": {
+        "instagram": "",
+        "twitter": "",
+        "linkedin": "",
+        "github": "https://github.com/singhavi94"
+      }
+    },
+    {
+      "name": "Kalyan Kanuri",
+      "role": "Web Developer",
+      "email": "kalyankanuri497@gmail.com",
+      "description": "Actually, I just woke up one day and decided I didn't want to feel like that anymore, or ever again. So I changed...",
+      "image": "./image/profile_kk.png",
+      "social": {
+        "instagram": "",
+        "twitter": "",
+        "linkedin": "https://www.linkedin.com/in/kalyan-kanuri-12224a220/",
+        "github": "https://github.com/KalyanKanuri"
+      }
+    }  
+  ]
+  

@@ -1,0 +1,68 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.logoImage {
+    height: 55px;
+    width: 55px;
+    padding: 10px;
+    margin-top: -20px;
+}
+
+.navbar_brand {
+    font-size: 2em;
+    color: white;
+}
+.navbar_brand span{padding-top: 10px;}
+a.navbar_brand:hover
+{
+    color: white;
+    text-decoration: none;
+}
+nav.navbar {
+    position: fixed;
+    width: 100%;
+}
+.navbar-header {
+    height: 68px;
+    padding-top: 5px;
+     
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #5F0A82;
+    z-index: 9999;
+    border: 0;
+    font-size: 17px;
+    line-height: 1.42857143 !important;
+    letter-spacing: 1.2px;
+    border-radius: 0;
+    font-family: Athiti;
+}
+
+.nav {
+    margin-left: 90px;
+    color: white;
+}
+
+ 
+#myNavbar li a {
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+
+}
+
+.navbar-default .navbar-toggle:hover {
+    border: 2px solid black;
+    background-color: transparent;
+    border-radius: 0px;
+    transition: 1s;
+}
